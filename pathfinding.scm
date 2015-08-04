@@ -1,4 +1,4 @@
-(define very-large-integer 1000000000000000000)
+(define very-large-integer 1000000)
 (define-type grid-node x y walkable? g h (previous unprintable:))
 (define (grid-node-reset gn)
   (grid-node-walkable?-set! gn #t)
